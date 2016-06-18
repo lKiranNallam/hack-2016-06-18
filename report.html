@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Report</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+		<div></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="form-group">
+					<label for="112help">How can 112 help?</label>
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" rows="5" id="112help"></textarea>
+				</div>
+				<div class="form-group">
+					 <select class="form-control">
+					   <option value="medical">Medical</option>
+					   <option value="fire">Fire</option>
+					   <option value="Police">Police</option>
+					 </select> 
+				</div>
+				<div class="form-group">
+  					<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Details</button>
+					<div id="demo" class="collapse">
+						<div class="form-group">
+							<label for="address">Address</label>
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="5" id="address" maxlength="2000"></textarea>
+						</div>
+						<div class="form-group">
+							<label for="landmark">Landmark</label>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="landmark" maxlength="100"/>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+  					<input type="submit" class="btn btn-info" />
+  				</div>
+			</div>
+			<div class="col-sm-8">
+				<iframe class="embed-responsive-item" src="..."></iframe>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
