@@ -1,0 +1,10 @@
+{
+      "local": {
+            "SERVER_PORT": 8000,
+            "DEBUG_MODE": true
+      },
+      "deploy": {
+            "SERVER_PORT": 8000,
+            "DEBUG_MODE": false
+      }
+}
